@@ -5,7 +5,7 @@ import (
 	"strconv"
 
 	"github.com/juju/errors"
-	"github.com/gocuntian/go/hack"
+	"github.com/siddontang/go/hack"
 )
 
 func formatTextValue(value interface{}) ([]byte, error) {

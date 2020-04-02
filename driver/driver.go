@@ -12,7 +12,7 @@ import (
 	"github.com/juju/errors"
 	"github.com/gocuntian/go-mysql/client"
 	"github.com/gocuntian/go-mysql/mysql"
-	"github.com/gocuntian/go/hack"
+	"github.com/siddontang/go/hack"
 )
 
 type driver struct {

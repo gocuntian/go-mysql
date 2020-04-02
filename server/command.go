@@ -5,7 +5,7 @@ import (
 	"fmt"
 
 	. "github.com/gocuntian/go-mysql/mysql"
-	"github.com/gocuntian/go/hack"
+	"github.com/siddontang/go/hack"
 )
 
 type Handler interface {

@@ -12,7 +12,7 @@ import (
 	"crypto/rsa"
 	"crypto/sha256"
 	"github.com/juju/errors"
-	"github.com/gocuntian/go/hack"
+	"github.com/siddontang/go/hack"
 )
 
 func Pstack() string {

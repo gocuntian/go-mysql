@@ -3,7 +3,7 @@ package canal
 import (
 	"sync"
 
-	"github.com/gocuntian/go-log/log"
+	"github.com/siddontang/go-log/log"
 	"github.com/gocuntian/go-mysql/mysql"
 )
 

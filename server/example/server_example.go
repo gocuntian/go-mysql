@@ -3,7 +3,7 @@ package main
 import (
 	"net"
 
-	"github.com/gocuntian/go-log/log"
+	"github.com/siddontang/go-log/log"
 	"github.com/gocuntian/go-mysql/mysql"
 	"github.com/gocuntian/go-mysql/server"
 	"github.com/gocuntian/go-mysql/test_util/test_keys"

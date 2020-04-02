@@ -13,7 +13,7 @@ import (
 
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/juju/errors"
-	"github.com/gocuntian/go-log/log"
+	"github.com/siddontang/go-log/log"
 	"github.com/gocuntian/go-mysql/mysql"
 	"github.com/gocuntian/go-mysql/test_util/test_keys"
 	"github.com/stretchr/testify/assert"

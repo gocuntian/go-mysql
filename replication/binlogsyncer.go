@@ -12,7 +12,7 @@ import (
 
 	"github.com/juju/errors"
 	uuid "github.com/satori/go.uuid"
-	"github.com/gocuntian/go-log/log"
+	"github.com/siddontang/go-log/log"
 	"github.com/gocuntian/go-mysql/client"
 	. "github.com/gocuntian/go-mysql/mysql"
 )

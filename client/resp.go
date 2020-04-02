@@ -10,7 +10,7 @@ import (
 
 	"github.com/juju/errors"
 	. "github.com/gocuntian/go-mysql/mysql"
-	"github.com/gocuntian/go/hack"
+	"github.com/siddontang/go/hack"
 )
 
 func (c *Conn) readUntilEOF() (err error) {
