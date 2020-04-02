@@ -8,8 +8,8 @@ import (
 	"time"
 
 	"github.com/juju/errors"
-	"github.com/siddontang/go-log/log"
-	"github.com/siddontang/go-mysql/mysql"
+	"github.com/gocuntian/go-log/log"
+	"github.com/gocuntian/go-mysql/mysql"
 	"github.com/stretchr/testify/assert"
 )
 
@@ -63,7 +63,7 @@ func TestSetUpSuite(t *testing.T) {
 
 	s.c.SetEventHandler(&testEventHandler{})
 	go func() {
-		// issue:https://github.com/siddontang/go-mysql/commit/8804d83ea8328534e3c47c0f1bf5a34d8a455a60
+		// issue:https://github.com/gocuntian/go-mysql/commit/8804d83ea8328534e3c47c0f1bf5a34d8a455a60
 		// err = s.c.Run()
 		set, _ := mysql.ParseGTIDSet("mysql", "")
 		err = s.c.StartFromGTID(set)

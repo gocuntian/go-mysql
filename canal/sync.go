@@ -9,10 +9,10 @@ import (
 
 	"github.com/juju/errors"
 	uuid "github.com/satori/go.uuid"
-	"github.com/siddontang/go-log/log"
-	"github.com/siddontang/go-mysql/mysql"
-	"github.com/siddontang/go-mysql/replication"
-	"github.com/siddontang/go-mysql/schema"
+	"github.com/gocuntian/go-log/log"
+	"github.com/gocuntian/go-mysql/mysql"
+	"github.com/gocuntian/go-mysql/replication"
+	"github.com/gocuntian/go-mysql/schema"
 )
 
 var (

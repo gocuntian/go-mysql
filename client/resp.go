@@ -9,8 +9,8 @@ import (
 	"encoding/pem"
 
 	"github.com/juju/errors"
-	. "github.com/siddontang/go-mysql/mysql"
-	"github.com/siddontang/go/hack"
+	. "github.com/gocuntian/go-mysql/mysql"
+	"github.com/gocuntian/go/hack"
 )
 
 func (c *Conn) readUntilEOF() (err error) {

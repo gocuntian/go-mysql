@@ -4,7 +4,7 @@
 
 ```go
 import (
-    "github.com/siddontang/go-mysql/replication"
+    "github.com/gocuntian/go-mysql/replication"
     "os"
 )
 // Create a binlog syncer with a unique server id, the server id must be different from other MySQL's. 
@@ -114,7 +114,7 @@ c.Run()
 
 ```go
 import (
-    "github.com/siddontang/go-mysql/client"
+    "github.com/gocuntian/go-mysql/client"
 )
 
 // Connect MySQL at 127.0.0.1:3306, with user root, an empty password and database test
@@ -155,7 +155,7 @@ Tested MySQL versions for the client include:
 
 ```go
 import (
-    "github.com/siddontang/go-mysql/server"
+    "github.com/gocuntian/go-mysql/server"
     "net"
 )
 
@@ -196,7 +196,7 @@ package main
 import (
     "database/sql"
 
-    _ "github.com/siddontang/go-mysql/driver"
+    _ "github.com/gocuntian/go-mysql/driver"
 )
 
 func main() {

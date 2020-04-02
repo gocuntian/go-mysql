@@ -3,7 +3,7 @@ package replication
 import (
 	"context"
 	"github.com/juju/errors"
-	"github.com/siddontang/go-log/log"
+	"github.com/gocuntian/go-log/log"
 	"time"
 )
 

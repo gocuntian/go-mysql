@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/siddontang/go-mysql/client"
-	_ "github.com/siddontang/go-mysql/driver"
+	"github.com/gocuntian/go-mysql/client"
+	_ "github.com/gocuntian/go-mysql/driver"
 	"github.com/stretchr/testify/assert"
 )
 

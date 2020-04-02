@@ -11,7 +11,7 @@ import (
 
 	"github.com/juju/errors"
 	uuid "github.com/satori/go.uuid"
-	"github.com/siddontang/go/hack"
+	"github.com/gocuntian/go/hack"
 )
 
 // Like MySQL GTID Interval struct, [start, stop), left closed and right open

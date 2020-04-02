@@ -7,8 +7,8 @@ import (
 	"strings"
 
 	"github.com/juju/errors"
-	"github.com/siddontang/go-log/log"
-	"github.com/siddontang/go/hack"
+	"github.com/gocuntian/go-log/log"
+	"github.com/gocuntian/go/hack"
 )
 
 // MariadbGTID represent mariadb gtid, [domain ID]-[server-id]-[sequence]

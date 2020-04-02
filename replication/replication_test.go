@@ -11,8 +11,8 @@ import (
 	"time"
 
 	uuid "github.com/satori/go.uuid"
-	"github.com/siddontang/go-mysql/client"
-	"github.com/siddontang/go-mysql/mysql"
+	"github.com/gocuntian/go-mysql/client"
+	"github.com/gocuntian/go-mysql/mysql"
 	"github.com/stretchr/testify/assert"
 )
 
